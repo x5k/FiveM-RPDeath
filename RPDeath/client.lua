@@ -2,7 +2,7 @@ RegisterNetEvent('RPD:allowRespawn')
 RegisterNetEvent('RPD:allowRevive') 
 RegisterNetEvent('RPD:toggleDeath')
 
-local reviveWaitPeriod = 300 -- How many seconds to wait before allowing player to revive themselves
+local reviveWaitPeriod = 30 -- How many seconds to wait before allowing player to revive themselves
 local RPDeathEnabled = true  -- Is RPDeath enabled by default? (/toggleDeath changes this value.)
 
 
